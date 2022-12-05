@@ -7,7 +7,7 @@ import { ADD_USER } from '../utils/mutations';
 
 
 const SignupForm = () => {
-  // set initial form state
+  // set user, email and password
   const [userFormData, setUserFormData] = useState({ username: '', email: '', password: '' });
   // set state for form validation
   const [validated] = useState(false);
