@@ -1,17 +1,7 @@
 # 21 MERN: Book Search Engine
 
-## Your Task
-Having a starter code with a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end. 
-
-To complete the assignment, I was able to do the following:
-
-1. Set up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
-
-2. Modify the existing authentication middleware so that it works in the context of a GraphQL API.
-
-3. Create an Apollo Provider so that requests can communicate with an Apollo Server.
-
-4. Deploy your application to Heroku with a MongoDB database using MongoDB Atlas.
+## Description
+Having a starter code with a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. I was able to set up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API. Along Modifying the existing authentication middleware so that it works in the context of a GraphQL API. Creating an Apollo Provider so that requests can communicate with an Apollo Server. Lastly Deploy your application to Heroku with a MongoDB database using MongoDB Atlas.
 
 ## User Story
 
@@ -55,5 +45,6 @@ THEN that book is deleted from my saved books list
 WHEN I click on the Logout button
 THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button  
 ```
-
+## Demonstration
+image.png
 
